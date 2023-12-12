@@ -1,0 +1,17 @@
+[package]
+name = "pgident"
+version = "0.0.1"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+license = "MIT"
+description = "A library for escaping and quoting Postgres identifiers/names"
+homepage = "https://github.com/stestagg/pgident"
+repository = "https://github.com/stestagg/pgident"
+readme = "README.md"
+
+keywords = ["postgres", "sql", "database", "escape", "quote"]
+categories = ["database", "encoding"]
+
+
+[dependencies]
