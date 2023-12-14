@@ -1,7 +1,7 @@
 use crate::{PgIdent, IdentError};
 use std::fmt::{Display, Formatter};
 
-
+#[derive(Debug)]
 pub enum PgName<T> where T: AsRef<str> {
     Id(PgIdent<T>),
     IdPair(PgIdent<T>, PgIdent<T>),

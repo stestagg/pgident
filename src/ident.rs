@@ -3,6 +3,7 @@ use std::fmt::{Display, Formatter};
 
 use crate::util::is_ident_compatible;
 
+#[derive(Debug)]
 pub enum PgIdent<T> where T: AsRef<str> {
     Id(T),
     Quoted(String)
